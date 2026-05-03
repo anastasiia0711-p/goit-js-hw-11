@@ -3,7 +3,7 @@ import 'izitoast/dist/css/iziToast.min.css';
 import { getImagesByQuery } from './js/pixabay-api.js';
 import { renderGallery, clearGallery, showLoader, hideLoader } from './js/render-functions.js';
 
-const searchForm = document.querySelector('.search-form');
+const searchForm = document.querySelector('.form');
 const galleryList = document.querySelector('.gallery');
 const loader = document.querySelector('.loader-container');
 
